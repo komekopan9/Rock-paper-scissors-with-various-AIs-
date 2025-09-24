@@ -1,0 +1,1 @@
+# Pattern AI パッケージ
