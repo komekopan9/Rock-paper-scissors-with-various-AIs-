@@ -104,6 +104,8 @@
 - モジュール化された構造で、特定の機能だけを変更可能
 
 ## ファイルの構造解説
+
+```
 Rock-paper-scissors-with-various-AIs-/
 ├── README.md              # プロジェクトの説明と使い方
 ├── ai_battle/             # メインのバトルシステム
@@ -118,6 +120,7 @@ Rock-paper-scissors-with-various-AIs-/
 │   ├── janken_ai.py       # パターン認識AIの実装
 │   └── main.py            # パターン認識AIのテスト用スクリプト
 └── requirements.txt       # 必要なPythonパッケージ
+```
 
 ## 作成者
 米粉パン
