@@ -103,6 +103,22 @@
 - 既存のAIの戦略を参考にしたカスタマイズが可能
 - モジュール化された構造で、特定の機能だけを変更可能
 
+## ファイルの構造解説
+Rock-paper-scissors-with-various-AIs-/
+├── README.md              # プロジェクトの説明と使い方
+├── ai_battle/             # メインのバトルシステム
+│   ├── __init__.py
+│   └── battle.py          # メインのゲームロジック
+├── bayesian_ai/           # ベイズ推論AIの実装
+│   ├── __init__.py
+│   ├── janken_ai.py       # ベイズ推論AIの実装
+│   └── main.py            # ベイズ推論AIのテスト用スクリプト
+├── pattern_ai/            # パターン認識AIの実装
+│   ├── __init__.py
+│   ├── janken_ai.py       # パターン認識AIの実装
+│   └── main.py            # パターン認識AIのテスト用スクリプト
+└── requirements.txt       # 必要なPythonパッケージ
+
 ## 作成者
 米粉パン
 
